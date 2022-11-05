@@ -1,0 +1,80 @@
+.unav{
+    background-color: white;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 45px 10px 45px;
+    height: 100px;
+}
+.cont-1{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    margin-right: 25px;
+}
+.brand{
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bolder;
+    color: #ff385c;
+}
+.btn1{
+    height: fit-content;
+    width: fit-content;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 25px;
+    background: transparent;
+}
+.btn2{
+    border-radius: 20px;
+    width: 75px;
+    height: 40px;
+    border: 1px solid gray;
+    box-shadow: 3px 3px 1px 1px #f5faf6;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+.bcont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu{
+    background-color: white;
+    box-shadow: 4px 4px 2px 1px #f5faf6;
+    border-radius: 15px;
+    width: 200px;
+    padding: 15px;
+    height: fit-content;
+    list-style-type: none;
+    text-decoration: none;
+    align-self: flex-end;
+    margin-right: 45px;
+    margin-top: 25px;
+}
+.litem{
+    list-style-type: none;
+    font-family: 'Roboto';
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #363433;
+}
+.main-cont{
+    display: flex;
+    flex-direction: column;
+}
+.globe-icon{
+    font-size: 20px;
+}
+.con-icon{
+    font-size: 30px;
+}
