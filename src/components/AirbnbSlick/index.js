@@ -1,5 +1,6 @@
 import { Component } from 'react'
 import Slider from 'react-slick'
+import {AiFillStar} from 'react-icons/ai'
 import './index.css'
 
 const settings = {
