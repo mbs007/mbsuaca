@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid'
-import './index.css'
 import AirbnbSlick from '../AirbnbSlick'
+import './index.css'
 const tsList = [
     {id: uuidv4(),rating: 4.98,count: 3327,city: 'italy',description: 'Pasta with the Grandmas' ,price: 2679,imgUrl:'https://a0.muscache.com/im/pictures/lombard/MtTemplate-1610894-active_media/original/1a9f2a4a-e613-4dfe-b871-1a2ec4841f04.jpg'},
     {id: uuidv4(),rating: 4.91,count: 2596,city: 'Spain',description: 'Pizza with the Grandmas',price: 1299,imgUrl:'https://a0.muscache.com/im/pictures/lombard/MtTemplate-1610894-media_library/original/83b203b9-f0b4-4070-ae38-c10628bef92f.jpeg'},

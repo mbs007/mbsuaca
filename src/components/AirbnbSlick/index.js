@@ -1,5 +1,7 @@
 import { Component } from 'react'
 import Slider from 'react-slick'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
 import {AiFillStar} from 'react-icons/ai'
 import './index.css'
 
@@ -47,11 +49,16 @@ class AirbnbSlick extends Component {
                 {tripsList.map(each => (
                     
                         <li className="slick-item" key={each.id}>
-                            <img
-                                className="poster-img"
-                                src={each.posterPath}
-                                alt={each.title}
-                            />
+                        <div className='asc1'>
+                            <img alt="top-sellers" src={each.imgUrl} className="ts-img" />
+                            <div className='asc2'>
+                                <AiFillStar className='star-icon' />
+                                <p className='rc-para'>{each.rating} ({each.count}) . {each.city}</p>
+                            </div>
+                            <p className='desc'>{each.description}</p>
+                            <p className='price-para'>From ₹{each.price}<span className='spel'>/person</span></p>
+
+                            </div>
                         </li>
                     
                 ))}
