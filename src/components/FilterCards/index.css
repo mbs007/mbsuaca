@@ -44,3 +44,23 @@
     list-style-type: none;
 
 }
+
+@media screen and (max-width: 576px) {
+    .ulmcont{
+        margin: 25px;
+    }
+    .ulg1{
+        width: 100px;
+        overflow-x: scroll;
+        
+    }
+    .btng1{
+        font-size: 10px;
+        padding: 5px;
+        border-radius: 10px;
+        height: 40px;
+    }
+    .muc{
+        width: 150px;
+    }
+}

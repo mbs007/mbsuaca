@@ -78,3 +78,27 @@
 .con-icon{
     font-size: 30px;
 }
+
+@media screen and (max-width: 576px) {
+    .unav{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .logo{
+        margin-right: 15px;
+        height: 30px;
+        width: 30px;
+    }
+    .brand{
+        font-size: 20px;
+    }
+    .btn1{
+        margin-right: 15px;
+    }
+    .globe-icon{
+        font-size: 15px;
+    }
+    .con-icon{
+        font-size: 25px;
+    }
+}

@@ -57,3 +57,30 @@
     margin: 30px 45px 15px 45px;
 }
 
+@media screen and (max-width: 576px) {
+    .cards-container{
+        margin: 20px 25px 10px 25px;
+    }
+    .mhead{
+        font-size: 30px;
+    }
+    .chead{
+        font-size: 25px;
+        width: 200px;
+    }
+    .cpara{
+        font-size: 10px;
+    
+    }
+    .sa-btn{
+        font-size: 15px;
+        width: 100px;
+    }
+    .card-con{
+        min-width: 280px;
+    
+        height: 450px;
+    }
+
+}
+

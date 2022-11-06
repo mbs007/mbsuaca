@@ -22,11 +22,6 @@
 
 
 
-.links {
-    text-decoration: none;
-    outline: none;
-    color: #ffffff;
-}
 
 .slick-prev:before,
 .slick-next:before {
@@ -79,4 +74,27 @@
 }
 .spel{
     font-weight: 500;
+}
+
+@media screen and (max-width: 576px) {
+    .price-para{
+        font-size: 10px;
+    }
+    .desc{
+        font-size: 13px;
+        width: 80px;
+    }
+    .rc-para{
+        font-size: 10px;
+    }
+    .slick-cont1{
+        padding: 20px;
+        max-width: 300px;
+    }
+    .asc1{
+        width: 150px;
+    }
+    .ts-img{
+        width: 125px;
+    }
 }
