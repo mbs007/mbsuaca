@@ -1,0 +1,46 @@
+.btng1{
+    background-color: transparent;
+    color: black;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px solid #574b4a;
+    border-radius: 15px;
+    height: 60px;
+    padding: 10px;
+    width: fit-content;
+    cursor: pointer;
+}
+.btng2{
+    border: none;
+    background-color: aliceblue;
+    outline: none;
+}
+.ulg1{
+    list-style-type: none;
+    text-decoration: none;
+    border-right: 5px solid #574b4a;
+    display: flex;
+    align-items: center;
+}
+.ulg2{
+    border: none;
+}
+.ulmcont{
+    margin: 45px;
+    display: flex;
+    align-items: center;
+}
+.litem{
+    list-style-type: none;
+    margin-right: 7px;
+}
+.muc{
+    width: 800px;
+    margin-left: 30px;
+    
+}
+.litem2{
+    list-style-type: none;
+
+}
